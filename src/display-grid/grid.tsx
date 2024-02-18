@@ -12,7 +12,7 @@ interface GridProps {
 
 export const Grid = ({ data, columnDefs, rowClassRules }: GridProps) => {
   const containerStyle = useMemo(
-    () => ({ width: '700px', height: '700px' }),
+    () => ({ width: '650px', height: '650px' }),
     []
   )
 
