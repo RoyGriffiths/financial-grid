@@ -1,0 +1,24 @@
+[
+  { "ticker": "ECHO", "price": 657999, "assetClass": "Other" },
+  { "ticker": 5, "price": 5000, "assetClass": "Credit" },
+  { "ticker": "BRAVO", "price": "hello", "assetClass": "Credit" },
+
+  { "ticker": "ALPHA", "price": 3150.67, "assetClass": "Credit" },
+  { "ticker": "BETA", "price": 3791.37, "assetClass": "Commodities" },
+  { "ticker": "BRAVO", "price": -21, "assetClass": "Equities" },
+  { "ticker": "NOVEMBER", "price": -450.4, "assetClass": "Credit" },
+  { "ticker": "CHARLIE", "price": 70000.75, "assetClass": "Commodities" },
+  { "ticker": "HOTEL", "price": 0, "assetClass": "Credit" },
+  { "ticker": "INDIA", "price": 34760000, "assetClass": "Equities" },
+  { "ticker": "FOXTROT", "price": -24, "assetClass": "Equities" },
+  { "ticker": "ALPHA", "price": 1234.4, "assetClass": "Commodities" },
+  { "ticker": "KILO", "price": -17.42, "assetClass": "Equities" },
+  { "ticker": "GOLD", "price": -2934.76, "assetClass": "Commodities" },
+  { "ticker": "VICTOR", "price": -4.7, "assetClass": "Credit" },
+  { "ticker": "XRAY", "price": 34.4, "assetClass": "Credit" },
+  { "ticker": "JULIET", "price": 872934, "assetClass": "Commodities" },
+  { "ticker": "DELTA", "price": 24.4, "assetClass": "Equities" },
+  { "ticker": "GOLF", "price": -872934.56, "assetClass": "Commodities" },
+  { "ticker": "ALPHA", "price": 0, "assetClass": "Commodities" },
+  { "ticker": "BETA", "price": -2435323, "assetClass": "Credit" }
+]

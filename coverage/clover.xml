@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1708278951727" clover="3.2.0">
+  <project timestamp="1708278951727" name="All files">
+    <metrics statements="64" coveredstatements="64" conditionals="15" coveredconditionals="15" methods="21" coveredmethods="21" elements="100" coveredelements="100" complexity="0" loc="64" ncloc="64" packages="4" files="6" classes="6"/>
+    <package name="display-grid">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="grid.tsx" path="C:\Users\Roy Griffiths\Desktop\React\gurpreet-task\react-financial-grid\src\display-grid\grid.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="display-grid.grid-types.financials">
+      <metrics statements="40" coveredstatements="40" conditionals="12" coveredconditionals="12" methods="12" coveredmethods="12"/>
+      <file name="data-filter.tsx" path="C:\Users\Roy Griffiths\Desktop\React\gurpreet-task\react-financial-grid\src\display-grid\grid-types\financials\data-filter.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="15" type="cond" truecount="4" falsecount="0"/>
+        <line num="12" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="22" count="10" type="stmt"/>
+      </file>
+      <file name="financial-grid.tsx" path="C:\Users\Roy Griffiths\Desktop\React\gurpreet-task\react-financial-grid\src\display-grid\grid-types\financials\financial-grid.tsx">
+        <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="33" count="8" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="37" count="8" type="stmt"/>
+      </file>
+      <file name="grid-properties.tsx" path="C:\Users\Roy Griffiths\Desktop\React\gurpreet-task\react-financial-grid\src\display-grid\grid-types\financials\grid-properties.tsx">
+        <metrics statements="15" coveredstatements="15" conditionals="3" coveredconditionals="3" methods="7" coveredmethods="7"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="display-grid.grid-types.utils">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="filtering.tsx" path="C:\Users\Roy Griffiths\Desktop\React\gurpreet-task\react-financial-grid\src\display-grid\grid-types\utils\filtering.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="16" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="stubs">
+      <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="5" coveredmethods="5"/>
+      <file name="stub-axios-get.tsx" path="C:\Users\Roy Griffiths\Desktop\React\gurpreet-task\react-financial-grid\src\stubs\stub-axios-get.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="5" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
