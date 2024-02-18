@@ -8,12 +8,12 @@ import {
 
 describe('compareAssetClassOrder function', () => {
   it('returns 1 when lower order asset class is first', () => {
-    const actual = compareAssetClassOrder('Commodities', 'Equities')
+    const actual = compareAssetClassOrder('Credit', 'Equities')
     expect(actual).toEqual(1)
   })
 
   it('returns -1 when higher order asset classes is first', () => {
-    const actual = compareAssetClassOrder('Credit', 'Equities')
+    const actual = compareAssetClassOrder('Commodities', 'Equities')
     expect(actual).toEqual(-1)
   })
 

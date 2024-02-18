@@ -9,9 +9,9 @@ export interface GridFinancialData {
 export const validAssetClasses: string[] = ['Commodities', 'Credit', 'Equities']
 
 const assetClassOrder: Record<string, number> = {
-  Commodities: 0,
+  Credit: 0,
   Equities: 1,
-  Credit: 2,
+  Commodities: 2,
 }
 
 // Defines the order of the assets when sorted given assetClassOrder above.
