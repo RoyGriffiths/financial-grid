@@ -62,8 +62,6 @@ As per the instructions, the grid does the following:
 
 <img src="https://github.com/RoyGriffiths/financial-grid/assets/33910329/dd4cb85a-93ae-451a-adf3-b00496384e0b" width="600" height="400">  
 
-### Some extra features made available with the use of AG Grid
-
 3. **Column filtering:**  
   - By hovering over the column header, you can select the filter button to launch a new UI:  
 <img src="https://github.com/RoyGriffiths/financial-grid/assets/33910329/bc9737ef-95ec-4e7d-bee8-1264194fc651" width="700" height="180">  
