@@ -48,7 +48,7 @@ Please note the input data is filtered and removes any rows that:
 
 Any row with additional attributes are included in the data, however those attributes are ignored.  
 
-## Functionalities
+## Functionality
 
 As per the instructions, the grid does the following: 
 
