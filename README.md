@@ -53,6 +53,12 @@ Please note the input data is filtered and removes any rows that:
 
 Any row with additional attributes are included in the data, however those attributes are ignored.
 
+If you wish to run the module tests and see the coverage, run the following:
+
+```
+npm run test
+```
+
 ## Functionality
 
 1. **Ability to sort each of the columns by clicking the column header:**
