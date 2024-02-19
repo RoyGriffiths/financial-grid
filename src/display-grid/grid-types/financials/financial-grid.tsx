@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import { stubAxiosGet } from '../../../stubs/stub-axios-get'
 import { Grid } from '../../grid'
-import { filterData } from '../utils/filtering'
-import { assetPriceTickerFilter } from './data-filter'
+import { filterDataWithPredicate } from '../utils/filtering'
+import { assetClassFilter } from './data-filter'
 import {
   GridFinancialData,
   financialGridColDefs,
@@ -31,7 +31,7 @@ export const FinancialGrid = () => {
   }, [])
 
   useEffect(() => {
-    setOutputData(filterData(financialData, assetPriceTickerFilter))
+    setOutputData(filterDataWithPredicate(financialData, assetClassFilter))
   }, [financialData])
 
   return (

@@ -1,7 +1,6 @@
 [
   { "ticker": "ECHO", "price": 657999, "assetClass": "Other" },
-  { "ticker": 5, "price": 5000, "assetClass": "Credit" },
-  { "ticker": "BRAVO", "price": "hello", "assetClass": "Credit" },
+  { "ticker": "ALPHA", "price": 1234, "assetClass": "Invalid Asset Class" },
 
   { "ticker": "ALPHA", "price": 3150.67, "assetClass": "Credit" },
   { "ticker": "BETA", "price": 3791.37, "assetClass": "Commodities" },

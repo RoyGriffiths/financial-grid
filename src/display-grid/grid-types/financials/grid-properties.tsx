@@ -56,7 +56,7 @@ export const financialGridColDefs: ColDef[] = [
     field: 'ticker',
     filter: true,
     width: 200,
-    suppressSizeToFit: true
+    suppressSizeToFit: true,
   },
   {
     headerName: 'Price',
@@ -64,9 +64,9 @@ export const financialGridColDefs: ColDef[] = [
     filter: true,
     cellClassRules: cellClassRules,
     type: 'rightAligned',
-    headerClass: "ag-left-aligned-header",
+    headerClass: 'ag-left-aligned-header',
     width: 150,
-    suppressSizeToFit: true
+    suppressSizeToFit: true,
   },
   {
     headerName: 'Asset Class',

@@ -2,6 +2,12 @@ import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react'
 import { Grid } from '../grid'
 
+interface TestData {
+  data: {
+    value: number
+  }
+}
+
 describe('Grid component', () => {
   const columnDefsMock = [
     { headerName: 'Value', field: 'value' },
@@ -14,7 +20,7 @@ describe('Grid component', () => {
   ]
 
   const rowClassRulesMock = {
-    'test-row-class': (params: any) => params.data.value >= 60,
+    'test-row-class': (params: TestData) => params.data.value >= 60,
   }
 
   it('renders correctly with provided props', () => {

@@ -1,4 +1,4 @@
-import { filterData } from '../filtering'
+import { filterDataWithPredicate } from '../filtering'
 
 describe('filterData function', () => {
   const testData = [
@@ -10,7 +10,7 @@ describe('filterData function', () => {
   const ageFilter = (item: (typeof testData)[number]) => item.age > 30
 
   it('correctly filters items based on age', () => {
-    const result = filterData(testData, ageFilter)
+    const result = filterDataWithPredicate(testData, ageFilter)
 
     expect(result.filtered.length).toBe(1)
     expect(result.removed.length).toBe(2)
@@ -18,7 +18,7 @@ describe('filterData function', () => {
   })
 
   it('handles empty arrays properly', () => {
-    const result = filterData([], ageFilter)
+    const result = filterDataWithPredicate([], ageFilter)
     expect(result.filtered).toEqual([])
     expect(result.removed).toEqual([])
   })
