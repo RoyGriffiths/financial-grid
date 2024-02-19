@@ -1,32 +1,32 @@
 /* Styling for financial-grid */
 
 /* Default text colour for cell text that is not the price column */
-.ag-theme-quartz-dark .ag-cell {
+.ag-theme-alpine-dark .ag-cell {
   color: #000000; /* Black */
 }
 
 /* Asset class column row styling */
-.ag-theme-quartz-dark .asset-class-commodities {
+.ag-theme-alpine-dark .asset-class-commodities {
   background-color: #ffffff; /* White */
 }
 
-.ag-theme-quartz-dark .asset-class-credit {
+.ag-theme-alpine-dark .asset-class-credit {
   background-color: #4ad34a; /* Green */
 }
 
-.ag-theme-quartz-dark .asset-class-equities {
+.ag-theme-alpine-dark .asset-class-equities {
   background-color: #93cde0; /* Light Blue */
 }
 
 /* Price column cell level styling */
-.ag-theme-quartz-dark .ag-row .ag-cell.price-positive {
+.ag-theme-alpine-dark .ag-row .ag-cell.price-positive {
   color: #0000cd; /* Medium Blue */
 }
 
-.ag-theme-quartz-dark .ag-row .ag-cell.price-negative {
+.ag-theme-alpine-dark .ag-row .ag-cell.price-negative {
   color: #ff0000; /* Red */
 }
 
-.ag-theme-quartz-dark .ag-row .ag-cell.price-zero {
+.ag-theme-alpine-dark .ag-row .ag-cell.price-zero {
   color: #000000; /* Black */
 }

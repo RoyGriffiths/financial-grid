@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { AgGridReact } from 'ag-grid-react'
 import { ColDef, RowClassRules } from 'ag-grid-community'
 import 'ag-grid-community/styles/ag-grid.css'
-import 'ag-grid-community/styles/ag-theme-quartz.css'
+import 'ag-grid-community/styles/ag-theme-alpine.css'
 
 interface GridProps {
   data: any
@@ -18,7 +18,7 @@ export const Grid = ({ data, columnDefs, rowClassRules }: GridProps) => {
 
   return (
     <div
-      className={'ag-theme-quartz-dark'}
+      className={'ag-theme-alpine-dark'}
       style={containerStyle}
       data-testid={'grid'}
     >
