@@ -51,9 +51,9 @@ Any row with additional attributes are included in the data, however those attri
 ## Functionality
 
 1. **Ability to sort each of the columns by clicking the column header:**
-   - For the "Asset Class" column: Sorts in the order of "Commodities, "Equities", then "Credit" when sorting in ascending order.
-   - For the "Price" column: Able to sort both ascending and descending size order.
-   - For the "Ticker" column: Able to sort both ascending and descending alphabetical order.
+   - For the "Asset Class" column: Sorts in the order of "Commodities, "Equities", then "Credit" when in ascending order.
+   - For the "Price" column: Able to sort by both ascending and descending size order.
+   - For the "Ticker" column: Able to sort by both ascending and descending alphabetical order.
      
 2. **Colour coded rows:**  
   - Commodities = White, Equities = Blue, Credit = Green.  
@@ -61,7 +61,7 @@ Any row with additional attributes are included in the data, however those attri
 <img src="https://github.com/RoyGriffiths/financial-grid/assets/33910329/dd4cb85a-93ae-451a-adf3-b00496384e0b" width="600" height="400">  
 
 3. **Column filtering:**  
-  - By hovering over the column header, you can select the filter button to launch a new UI:  
+  - By hovering over the column header, you can select the filter button to launch a new UI that allows you to create a filter:  
 <img src="https://github.com/RoyGriffiths/financial-grid/assets/33910329/bc9737ef-95ec-4e7d-bee8-1264194fc651" width="700" height="180">  
 
 <img src="https://github.com/RoyGriffiths/financial-grid/assets/33910329/5a1d9fd8-24c0-491c-8b03-1860850dbb01"  width="400" height="320">    
@@ -76,6 +76,7 @@ Any row with additional attributes are included in the data, however those attri
   
 5. **Multi-column sorting:**
    - By pressing the ctrl key at the same time as clicking a column header, you can sort multiple columns at the same time:
+   - In the below example, we first sort by Asset Classin ascending order, then by Price in descending order. 
     
 <img src="https://github.com/RoyGriffiths/financial-grid/assets/33910329/6d9179c9-dd46-49b1-8292-bf7c99c67ac2"  width="600" height="400">  
 
