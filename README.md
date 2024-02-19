@@ -14,12 +14,10 @@ If you do not have this available, please follow instructions at: https://nodejs
 **Steps**:  
 
 **1.** Clone the repo by clicking on <> Code at the top of this page and select your choice of clone method.
+   - Note that this will take a few minutes as the node_modules and dist build folders have been added for compatibility within JPMC.
    
-**2.** Open up a terminal and cd into the root directory of the file and run the following to install all dependencies:
-   
-```
-npm install
-```
+**2.** Open up a terminal and cd into the root directory of the file. 
+   - As the project already contains the node_modules and build files, there is no need to run any package installs. 
 
 **3.** If you wish to run a local development vesion of the app, run the following:
    
@@ -30,12 +28,7 @@ npm run dev
 This sets up a development environment with features like automatic code reloading at http://localhost:5173/. 
 
 **4.** If you wish to run a production ready version, run the following:
-
-```
-npm run build
-```
-
-This will build the application. After this, run the following:
+   - As before, since the node_modules and build folders have been included from the start, there is no need to run any builds.
 
 ```
 npm run preview
