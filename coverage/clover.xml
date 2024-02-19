@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1708307237420" clover="3.2.0">
-  <project timestamp="1708307237420" name="All files">
+<coverage generated="1708334754727" clover="3.2.0">
+  <project timestamp="1708334754727" name="All files">
     <metrics statements="62" coveredstatements="62" conditionals="7" coveredconditionals="7" methods="21" coveredmethods="21" elements="90" coveredelements="90" complexity="0" loc="62" ncloc="62" packages="4" files="6" classes="6"/>
     <package name="display-grid">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
@@ -51,19 +51,19 @@
         <metrics statements="15" coveredstatements="15" conditionals="3" coveredconditionals="3" methods="7" coveredmethods="7"/>
         <line num="9" count="3" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="20" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="32" count="3" type="stmt"/>
-        <line num="34" count="3" type="stmt"/>
-        <line num="36" count="3" type="stmt"/>
-        <line num="38" count="3" type="stmt"/>
-        <line num="46" count="3" type="stmt"/>
-        <line num="47" count="3" type="stmt"/>
-        <line num="48" count="3" type="stmt"/>
-        <line num="49" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
         <line num="53" count="3" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
       </file>
     </package>
     <package name="display-grid.grid-types.utils">

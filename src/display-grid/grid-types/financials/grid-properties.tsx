@@ -14,8 +14,13 @@ const assetClassOrder: Record<string, number> = {
   Commodities: 2,
 }
 
-// Defines the order of the assets when sorted given assetClassOrder above.
-// Here, Commodities would be displayed first if we sorted in descending order
+/**
+ * Given two strings, values of asset class, compares the order which they should be displayed and return an integer between -1 and 1.
+ *
+ * @param fst - string - First value that is compared against. Value is one of validAssetClasses
+ * @param snd - string - Second value that is compared against. Value is one of validAssetClasses
+ * @returns - bool - -1, 0, or 1. In the context of row sorting, 0 and 1 indicates to put the fst item first and -1 otherwise.
+ */
 export const compareAssetClassOrder = (fst: string, snd: string) => {
   if (assetClassOrder[fst] === assetClassOrder[snd]) return 0
   if (assetClassOrder[fst] < assetClassOrder[snd]) return 1
