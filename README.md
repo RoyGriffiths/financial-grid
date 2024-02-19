@@ -50,8 +50,6 @@ Any row with additional attributes are included in the data, however those attri
 
 ## Functionality
 
-As per the instructions, the grid does the following: 
-
 1. **Ability to sort each of the columns by clicking the column header:**
    - For the "Asset Class" column: Sorts in the order of "Commodities, "Equities", then "Credit" when sorting in ascending order.
    - For the "Price" column: Able to sort both ascending and descending size order.
